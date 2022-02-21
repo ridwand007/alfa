@@ -155,8 +155,7 @@ $heder_jadi = array(
  if($status == "00"){
     $total_voucher = $login['totalVouchers'];
     if($total_voucher == null){
-        echo "| Voucher Kosong!!! \n
-";
+        echo "| Voucher Kosong!!! \n";
         
     }elseif($total_voucher !== null){
         echo "| Total voucher = $total_voucher \n";
@@ -167,7 +166,3 @@ $heder_jadi = array(
  }
 
 goto welcome;
-
-
-
-
