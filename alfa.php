@@ -32,13 +32,8 @@ if(file_exists("config.json")){
     $memberid = $arr2['id'];
     $hp = $arr2['hp'];
     echo "| wes logon cok, ki nomer hp mu $hp \n";
-    echo "| 1. Login \n";
-    echo "| 2. Daftar \n";
-    echo "| Pilih: ";
-    $pilih = trim(fgets(STDIN));
-    if($pilih !== '1'){
-        goto daftar;
-    }else{goto login;}
+ goto daftar;
+    
 }
 daftar:
 echo "| Masukan Nomor HP: ";
