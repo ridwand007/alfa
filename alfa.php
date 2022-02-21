@@ -24,9 +24,7 @@ $deviceid= "$random1-936d-974b-a9ef-$random2$random3";
 $deviceid2 = "\"$deviceid\"";
 echo "\n";
 echo "\n";
-echo "| Welcome to ALFAGIFT ACCOUNT GENERATOR!! \n";
-echo "| Simpel script by nyolong \n";
-echo "| Wa 089654979297 \n";
+echo "\e[94m REGISTER ALFAGIFT ACCOUNT!! \n";
 echo "| --------------------------- \n";
 if(file_exists("config.json")){
     $arr2 = json_decode(file_get_contents('config.json'), true);
@@ -114,8 +112,9 @@ if($status_create !== "00"){
     $token = $create_akun['status']['token'];
     $id_ponta = $create_akun['member']['ponta']['accountCard'];
     $no_hp = $create_akun['member']['ponta']['phoneNumber'];
-    echo "| Sukses daftar!!! \n";
-    echo "| Nomer hp $no_hp dan password sekar0116 \n";
+    echo "| Sukses MENDAFTAR CROTTTT...!!! \n";
+    echo "| Nomer hp $no_hp \n";
+    echo "| Paswordnya : sekar0116 \n";
     echo "| Member Ponta $id_ponta \n";
     echo "| Loading voucher \n";
     sleep(4);
@@ -137,7 +136,7 @@ $heder_jadi = array(
     "accept-language: id",
     "versionname: 4.0.30",
     "versionnumber: 403016",
-    "devicemodel: Xiaomi Redmi Note 7",
+    "devicemodel: Xiaomi Redmi Note 8",
     "packagename: com.alfamart.alfagift",
     "signature: 6E:41:03:61:A5:09:55:05:B6:84:84:C9:75:0B:89:56:5D:1D:41:C7",
     "latitude: 0.0",
